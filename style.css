@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+/* section {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 500px;
+height:500px;
+} */
+
+article {
+  flex: 1;
+  padding: 1rem;
+}
+
+.text, img{
+  flex: 1;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  height:500px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.more-articles {
+  width: 80%;
+  margin: auto;
+}
+
+.subtitle {
+  font-style: italic;
+  margin:1.2;
+}
